@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C00D0CF91FA309C200C41170 /* TagCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00D0CF81FA309C200C41170 /* TagCollectionViewCell.swift */; };
+		C00D0CFB1FA319DE00C41170 /* TagCollectionViewAlignFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00D0CFA1FA319DE00C41170 /* TagCollectionViewAlignFlowLayout.swift */; };
 		C0D4CA581FA2DD2C00C1FB0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D4CA571FA2DD2C00C1FB0B /* AppDelegate.swift */; };
 		C0D4CA5A1FA2DD2C00C1FB0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D4CA591FA2DD2C00C1FB0B /* ViewController.swift */; };
 		C0D4CA5D1FA2DD2C00C1FB0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0D4CA5B1FA2DD2C00C1FB0B /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C00D0CF81FA309C200C41170 /* TagCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagCollectionViewCell.swift; sourceTree = "<group>"; };
+		C00D0CFA1FA319DE00C41170 /* TagCollectionViewAlignFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagCollectionViewAlignFlowLayout.swift; sourceTree = "<group>"; };
 		C0D4CA541FA2DD2C00C1FB0B /* LeftTagDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeftTagDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0D4CA571FA2DD2C00C1FB0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0D4CA591FA2DD2C00C1FB0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 			children = (
 				C0D4CA571FA2DD2C00C1FB0B /* AppDelegate.swift */,
 				C0D4CA591FA2DD2C00C1FB0B /* ViewController.swift */,
+				C00D0CFA1FA319DE00C41170 /* TagCollectionViewAlignFlowLayout.swift */,
+				C00D0CF81FA309C200C41170 /* TagCollectionViewCell.swift */,
 				C0D4CA5B1FA2DD2C00C1FB0B /* Main.storyboard */,
 				C0D4CA5E1FA2DD2C00C1FB0B /* Assets.xcassets */,
 				C0D4CA601FA2DD2C00C1FB0B /* LaunchScreen.storyboard */,
@@ -137,7 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0D4CA5A1FA2DD2C00C1FB0B /* ViewController.swift in Sources */,
+				C00D0CFB1FA319DE00C41170 /* TagCollectionViewAlignFlowLayout.swift in Sources */,
 				C0D4CA581FA2DD2C00C1FB0B /* AppDelegate.swift in Sources */,
+				C00D0CF91FA309C200C41170 /* TagCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
